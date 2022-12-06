@@ -1,0 +1,143 @@
+@media (min-width:1400px){
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    nav #navbarNav ul li a {
+        padding: 26px 19px;
+        font-size: 14px;
+    }
+    #banner .container .row .content h1 {
+        font-size: 54px;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    #banner .container .row .content h1 {
+        font-size: 54px;
+    }
+    #banner .container .row .content a {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+    #interest .container .row h3 {
+        margin-bottom: 18px;
+    }
+    #interest .container .row p {
+        margin-bottom: 33px;
+    }
+    #aboutme .row .content .row{
+        text-align: center;
+    }
+    #aboutme .row .content .row .aboutme_info .row .row_image{
+        display: block;
+        margin-bottom: 10px;
+    }
+    #skill .container .row .skill_info a {
+        font-size: 18px;
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+    #resume .container a {
+        font-size: 14px;
+        padding: 10px 6px;
+    }
+}
+@media (min-width:576px) and (max-width:767.98px){  
+    #banner .container .row .content h1 {
+        font-size: 41px;
+    }
+    #banner .container .row .content a {
+        font-size: 16px;
+        padding: 11px 21px;
+    }
+    #interest .container .row h3 {
+        margin-bottom: 14px;
+    }
+    #interest .container .row p {
+        margin-bottom: 33px;
+    }
+    #aboutme .row .content{
+        text-align: center;
+    }
+    #aboutme .row .content .row .aboutme_info .row .row_image{
+        display: block;
+        margin-bottom: 10px;
+    }
+    #skill .container .row .skill_info a {
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+    #resume .container a {
+        font-size: 11px;
+        padding: 10px;
+    }
+}
+@media (max-width:575.98px){
+    #banner .container .row .content h1 {
+        font-size: 23px;
+    }
+    #banner .container .row .content a {
+        font-size: 12px;
+        padding: 11px 21px;
+    }
+    #interest .container .row h3 {
+        margin-bottom: 14px;
+    }
+    #interest .container .row p {
+        margin-bottom: 33px;
+    }
+    #aboutme .row .content>p {
+        text-align: justify;
+    }
+    #aboutme .row .content{
+        text-align: center;
+    }
+    #aboutme .row .content .row .aboutme_info .row .row_image{
+        display: block;
+        margin-bottom: 10px;
+    }
+    #skill .container .row .skill_info h3 {
+        text-align: center;
+    }
+    #skill .container .row .skill_info p {
+        text-align: center;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+    #skill .container .row .skill_info a {
+        font-size: 13px;
+        padding: 10px 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    #resume {
+        padding: 100px 0px;
+    }
+    #resume .container a {
+        font-size: 9px;
+        padding: 19px 0;
+    }
+    #quote .container {
+        padding: 90px 0px;
+    }
+    #quote .container p{
+        text-align: justify;
+    }
+    #form .container .row .form_form form button {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    #form .container .row .form_form form input {
+        width: 80%;
+        padding: 0;
+    }
+    #form .container .row .form_form form textarea {
+        width: 94%;
+        height: 226px;
+    }
+    #form .container .row .form_contact {
+        padding-right: 0px;
+        text-align: justify;
+    }
+}

@@ -1,0 +1,415 @@
+/* common css codes end */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p,small,ol,ul,button{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.only_info{
+    padding-right: 80px;
+}
+.only_info h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #566366;
+    margin-bottom: 49px;
+    text-transform: uppercase;
+}
+.only_info p{
+    font-size: 18px;
+    color: #919191;
+    text-align: justify;
+}
+.details_heading{
+    padding-right: 230px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #cccc;
+}
+.details_heading h3{
+    font-size: 22px;
+    font-weight: bold;
+    color: #566366;
+    margin-top: 87px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.details_heading h4{
+    font-size: 18px;
+    font-weight: medium;
+    color: #919191;
+    margin-bottom: 20px;
+}
+.details_heading p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2ecc71;
+    text-align: center;
+    padding: 8px 8px;
+    width: 72px;
+}
+.details_paragraph p{
+    font-size: 18px;
+    color: #919191;
+    padding-top: 28px;
+    text-align: justify;
+}
+/* common css codes end */
+/* nav css codes end */
+nav{
+    background-color: #252e30;
+}
+nav #navbarNav ul li a{
+    display: inline-block;
+    color: #fff;
+    padding: 26px 19px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+nav #navbarNav ul li:hover a{
+    color: #2ecc71;
+}
+/* nav css codes end */
+/* banner css codes end */
+#banner{
+    height: 1000px;
+    background: url(../img/resume.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#banner .container .row .content h1{
+    font-size: 60px;
+    font-weight: bold;
+    color:#fff;
+    text-transform: uppercase;
+    padding: 18px 0;
+    margin-bottom: 50px;
+    border-top:2px solid #fff ;
+    border-bottom:2px solid #fff ;
+}
+#banner .container .row .content a{
+    font-size: 18px;
+    font-weight: bold;
+    color:#fff;
+    text-transform: uppercase;
+    padding: 18px 35px;
+    border: 2px solid #fff;
+}
+/* banner css codes end */
+/* interest css codes end */
+#interest .container .row h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #566366;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+#interest .container .row p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #566366;
+    text-align: justify;
+}
+#interest{
+    padding: 95px 0;
+}
+/* interest css codes end */
+/* about me css codes end */
+#aboutme .row .img img{
+    width: 100%;
+    height: 100%;
+}
+#aboutme .row .content{
+    background-color: #f1f1f1;
+}
+#aboutme .row .content h1{
+    color:#566366;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 47px;
+    text-transform: uppercase;
+}
+#aboutme .row .content>p{
+    color:#919191;
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+#aboutme .row .content .row .aboutme_info h3{
+    font-size: 22px;
+    font-weight: bold;
+    color: #566366;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+#aboutme .row .content .row .aboutme_info p{
+    font-size: 18px;
+    color: #919191;
+}
+#aboutme .row .content .row .aboutme_info .row .row_item{
+    padding-left:25px;
+    padding-right:20px;
+    padding-bottom: 50px;
+}
+#aboutme .row .content{
+    padding: 70px 60px;
+}
+/* about me css codes end */
+/* skills codes end */
+#skill{
+    padding: 90px 0;
+}
+#skill .container .row .skill_info h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #566366;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+#skill .container .row .skill_info p{
+    font-size: 18px;
+    color: #919191;
+    margin-bottom: 40px;
+    margin-right: 98px;
+}
+#skill .container .row .skill_info a{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2ecc71;
+    padding: 10px 0;
+    border: 2px solid #2ecc71;
+}
+#skill .container .row .progressbar .progress{
+    height: 30px;
+    background-color: #f1f1f1;
+    margin-bottom: 36px;
+}
+#skill .container .row .progressbar .progress #pr_1{
+    height: 100%;
+    background-color: #2ecc71;
+}
+#skill .container .row .progressbar .progress #pr_2{
+    height: 100%;
+    background-color: #2ecc71;
+}
+#skill .container .row .progressbar .progress #pr_3{
+    height: 100%;
+    background-color: #2ecc71;
+}
+#skill .container .row .progressbar .progress #pr_4{
+    height: 100%;
+    background-color: #2ecc71;
+}
+#skill .container .row .progressbar h4{
+    font-size: 22px;
+    font-weight: bold;
+    color: #566366;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+#skill .container .row .progressbar .progress p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+}
+/* skills codes end */
+/* resume codes start */
+#resume{
+    background-color: #f2f2f1;
+    padding: 100px 70px;
+}
+#resume .container h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #566366;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#resume .container p{
+    font-size: 18px;
+    color: #919191;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#resume .container a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #2ecc71;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 19px 10px;
+    border: 2px solid #2ecc71;
+    margin: auto;
+    display: block;
+}
+/* resume codes end */
+/* my education codes start */
+#education .container{
+    padding: 94px 0;
+}
+#education .container{
+    border-bottom: 1px solid #cccc;
+}
+/* my education codes end */
+/* work experience css codes end */
+#experience .container{
+    padding: 94px 0;
+}
+/* work experience css codes end */
+/* quote codes start */
+#quote{
+    background-color: #f2f2f1;
+}
+#quote .container{
+    padding: 90px 70px;
+}
+#quote .container p{
+    font-size: 22px;
+    font-weight: bold;
+    color: #919191;
+    text-align: center;
+    margin-bottom: 42px;
+}
+#quote .container h4{
+    font-size: 18px;
+    font-weight: bold;
+    color: #566366;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#quote .container img{
+    display: block;
+    margin: auto;
+}
+/* quote codes end */
+/* portfolio codes start */
+#portfolio{
+    padding: 98px 0;
+}
+#portfolio .container h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #566366;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#portfolio .container p{
+    font-size: 18px;
+    color: #919191;
+    text-align: center;
+    margin-bottom: 94px;
+}
+#portfolio .container .row .portfolio_image{
+    position: relative;
+}
+#portfolio .container .row .portfolio_image img{
+    width:100%;
+}
+#portfolio .container .row .portfolio_image .overlay{
+    position: absolute;
+    background-color: rgba(45,203,113,0.75);
+    visibility: hidden;
+    z-index: 1;
+    left: 12px;
+    right: 12px;
+    top: 0;
+    bottom: 0;
+}
+#portfolio .container .row .portfolio_image .overlay img{
+    height: 49px;
+    width: 49px;
+}
+#portfolio .container .row .portfolio_image:hover .overlay{
+    visibility: visible;
+}
+/* portfolio codes end */
+/* form codes start */
+#form{
+    background-color: #252e30;
+}
+#form .container{
+    padding: 90px 0;
+}
+#form .container .row .form_contact{
+    padding-right: 90px;
+}
+#form .container .row .form_contact h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#form .container .row .form_contact p{
+    font-size: 18px;
+    color: #919191;
+}
+#form .container .row .form_contact .form_special{
+    color: #fff;
+}
+#form .container .row .form_contact a{
+    font-size: 18px;
+    color: #919191;
+}
+#form .container .row .form_contact .row .div1{
+    width: 100px;
+}
+#form .container .row .form_contact .row .div2{
+    width: 140px;
+}
+#form .container .row .form_contact .row .div2 a{
+    display: block;
+}
+#form .container .row .form_form form label{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    display: block;
+}
+#form .container .row .form_form form label span{
+    font-size: 18px;
+    color: #4b5456;
+}
+#form .container .row .form_form form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 35px;
+    background-color: #4b5456;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 0;
+}
+#form .container .row .form_form form textarea{
+    display:block;
+    width: 100%;
+    height: 280px;
+    background-color: #4b5456;
+    margin-bottom: 35px;
+    color: #fff;
+    font-size: 18px;
+}
+#form .container .row .form_form form button{
+    color: #fff;
+    padding: 20px 35px;
+    background-color: #191f21;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* form codes end */
